@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div style="text-align: center;">
+        <h1>IMAGE GALLERY</h1>
+    </div>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="image/Bachelor's_button,_Basket_flower,_Boutonniere_flower,_Cornflower_-_3.jpg"
+                style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="image/flowers-276014_640.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="image/online-plant-bazar-pink-hibiscus-flower-live-plant-product-images-orvfre3tnlr-p603983067-0-202308192344.webp"
+                style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
